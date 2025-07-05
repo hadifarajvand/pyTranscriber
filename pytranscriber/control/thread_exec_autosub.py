@@ -60,6 +60,9 @@ class Thread_Exec_Autosub(QThread):
         outputFileSRT = outputFiles[0]
         outputFileTXT = outputFiles[1]
 
+        # Initialize fOutput to None
+        fOutput = None
+
         #run autosub
         try:
             fOutput = Ctr_Autosub.generate_subtitles(source_path = sourceFile,
