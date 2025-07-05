@@ -17,3 +17,5 @@ notes.txt
 Pipfile.lock
 
 Pipfile
+pytranscriber/gui/Português.qm
+pytranscriber/gui/Português.ts
